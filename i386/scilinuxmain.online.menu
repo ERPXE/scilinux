@@ -1,0 +1,9 @@
+LABEL SCILINUXX86OL
+MENU LABEL ^Scientific Linux - i386 Internet Installation
+KERNEL er/plugins/scilinux/i386/vmlinuz
+INITRD er/plugins/scilinux/i386/initrd.img
+APPEND ramdisk_size=100000 ip=dhcp METHOD=http://ftp.scientificlinux.org/linux/scientific/6/i386/os/
+http://mirror.isoc.org.il/pub/scilinux/os/i386/
+TEXT HELP
+                 Install Scientific Linux x86.
+ENDTEXT

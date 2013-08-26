@@ -1,0 +1,8 @@
+LABEL SCILINUXX86HTTP
+MENU LABEL ^Scientific Linux - i386 HTTP
+KERNEL er/plugins/scilinux/i386/vmlinuz
+INITRD er/plugins/scilinux/i386/initrd.img
+APPEND ramdisk_size=100000 ip=dhcp METHOD=http://10.0.0.1/er/scilinux/i386/
+TEXT HELP
+                 Install Scientific Linux x86.
+ENDTEXT

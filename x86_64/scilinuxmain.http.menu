@@ -1,0 +1,8 @@
+LABEL SCILINUXX64HTTP
+MENU LABEL ^Scientific Linux - x64 HTTP
+KERNEL er/plugins/scilinux/x86_64/vmlinuz
+INITRD er/plugins/scilinux/x86_64/initrd.img
+APPEND ramdisk_size=100000 ip=dhcp METHOD=http://10.0.0.1/er/scilinux/x86_64/
+TEXT HELP
+                 Install Scientific Linux x64.
+ENDTEXT

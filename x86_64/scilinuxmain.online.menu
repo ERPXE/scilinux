@@ -1,0 +1,8 @@
+LABEL SCILINUXX64OL
+MENU LABEL ^Scientific Linux - x64 Internet Installation
+KERNEL er/plugins/scilinux/x86_64/vmlinuz
+INITRD er/plugins/scilinux/x86_64/initrd.img
+APPEND ramdisk_size=100000 ip=dhcp METHOD=http://ftp.scientificlinux.org/linux/scientific/6/x86_64/os/
+TEXT HELP
+                 Install Scientific Linux x64.
+ENDTEXT

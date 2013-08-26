@@ -1,0 +1,18 @@
+MENU BEGIN SCIENTIFICLINUX
+MENU LABEL ^Scientific Linux 6.2
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/scilinux/scilinux.png
+
+MENU INCLUDE er/plugins/scilinux/i386/scilinuxmain.http.menu
+MENU INCLUDE er/plugins/scilinux/i386/scilinuxmain.nfs.menu
+MENU INCLUDE er/plugins/scilinux/i386/scilinuxmain.online.menu
+MENU INCLUDE er/plugins/scilinux/x86_64/scilinuxmain.http.menu
+MENU INCLUDE er/plugins/scilinux/x86_64/scilinuxmain.nfs.menu
+MENU INCLUDE er/plugins/scilinux/x86_64/scilinuxmain.online.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END
